@@ -28,6 +28,18 @@ class keyDemo extends Component {
     }
   }
 
+  clickHandler = () => {
+    this.state.userInfo.push({
+      name: 'Jack',
+      age: '28',
+      sex: '男',
+      hobby: ['车', '房子', '钱']
+    })
+    this.setState({
+      userInfo: [...this.state.userInfo]
+    })
+  }
+
   render() {
     return (
       <div>
@@ -52,6 +64,7 @@ class keyDemo extends Component {
             })
           }
         </ul>
+        <button onClick={ this.clickHandler }>添加数据</button>
       </div>
     )
   }
