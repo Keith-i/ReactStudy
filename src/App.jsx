@@ -6,6 +6,7 @@ import ComponentLift from './componentLift'
 import SetStateDemo from './setStateDemo'
 import IfDemo from './ifDemo'
 import KeyDemo from './keyDemo'
+import FormDemo from './FormDemo'
 
 // 1、用类的形式创建组件 2、Hook形式
 class App extends Component {
@@ -41,6 +42,7 @@ class App extends Component {
         <SetStateDemo></SetStateDemo>
         <IfDemo></IfDemo>
         <KeyDemo></KeyDemo>
+        <FormDemo></FormDemo>
       </div>
     );
   }
