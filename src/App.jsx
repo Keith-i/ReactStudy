@@ -9,6 +9,7 @@ import KeyDemo from './keyDemo'
 import FormDemo from './FormDemo'
 import RefsAndDom from './RefsAndDom'
 import RefsForm from './RefsForm'
+import Parent from './components/parent'
 
 // 1、用类的形式创建组件 2、Hook形式
 class App extends Component {
@@ -47,6 +48,7 @@ class App extends Component {
         <FormDemo></FormDemo>
         <RefsAndDom></RefsAndDom>
         <RefsForm></RefsForm>
+        <Parent></Parent>
       </div>
     );
   }
