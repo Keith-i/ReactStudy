@@ -11,6 +11,7 @@ import RefsAndDom from './RefsAndDom'
 import RefsForm from './RefsForm'
 import Parent from './components/parent'
 import Compose from './compose'
+import PropsTypeDemo from './propsTypeDemo'
 
 // 1、用类的形式创建组件 2、Hook形式
 class App extends Component {
@@ -53,6 +54,7 @@ class App extends Component {
         <Compose>
           <div>我是组合效果</div>
         </Compose>
+        <PropsTypeDemo title="标题"></PropsTypeDemo>
       </div>
     );
   }
