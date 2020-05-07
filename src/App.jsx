@@ -10,6 +10,7 @@ import FormDemo from './FormDemo'
 import RefsAndDom from './RefsAndDom'
 import RefsForm from './RefsForm'
 import Parent from './components/parent'
+import Compose from './compose'
 
 // 1、用类的形式创建组件 2、Hook形式
 class App extends Component {
@@ -49,6 +50,9 @@ class App extends Component {
         <RefsAndDom></RefsAndDom>
         <RefsForm></RefsForm>
         <Parent></Parent>
+        <Compose>
+          <div>我是组合效果</div>
+        </Compose>
       </div>
     );
   }
